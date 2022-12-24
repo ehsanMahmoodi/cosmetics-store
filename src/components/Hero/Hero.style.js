@@ -33,6 +33,15 @@ export const useStyle = makeStyles({
         maxWidth: "33.333333%",
         flexBasis: "33.333333%",
       },
+      [defaultTheme.breakpoints.down(450)]: {
+        maxWidth: "100%",
+        flexBasis: "100%",
+        gap: "4rem",
+        flexDirection: "row",
+        "& .bottom": {
+          marginTop: "0",
+        },
+      },
     },
     "& .middle_side": {
       position: "relative",
@@ -88,8 +97,12 @@ export const useStyle = makeStyles({
             padding: "0.25rem",
           },
         },
-        [defaultTheme.breakpoints.down(840)]: {
-          bottom: "4% !important",
+      },
+      [defaultTheme.breakpoints.down(840)]: {
+        maxWidth: "66.666667%",
+        flexBasis: "66.666667%",
+        "& .hero_cart": {
+          bottom: "4%",
           gap: "0.6875rem",
           "& .signup": {
             maxWidth: "6rem",
@@ -99,9 +112,16 @@ export const useStyle = makeStyles({
           },
         },
       },
-      [defaultTheme.breakpoints.down(840)]: {
-        maxWidth: "66.666667%",
-        flexBasis: "66.666667%",
+      [defaultTheme.breakpoints.down(450)]: {
+        maxWidth: "100%",
+        flexBasis: "100%",
+        "& .hero_cart": {
+          right: "unset",
+          bottom: "-20% !important",
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: "10.1rem",
+        },
       },
     },
     "& .right_side": {
@@ -134,6 +154,9 @@ export const useStyle = makeStyles({
             marginTop: "0rem !important",
           },
         },
+      },
+      [defaultTheme.breakpoints.down(450)]: {
+        marginTop: "4.2rem",
       },
     },
   },

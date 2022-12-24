@@ -1,4 +1,4 @@
-import { Avatar, Box, Grid, Typography } from "@mui/material";
+import { Avatar, Box, Container, Grid, Typography } from "@mui/material";
 // style
 import { useStyle } from "./Header.style";
 // image
@@ -10,7 +10,11 @@ import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 const Header = () => {
   const classes = useStyle();
   return (
-    <Box className={classes.header_container} component={"header"}>
+    <Container
+      maxWidth={false}
+      className={classes.header_container}
+      component={"header"}
+    >
       <Grid container>
         <Grid item xs={6} sm={2} className={"site_logo_wrapper"}>
           <Avatar src={logo} alt={"site-logo"} className={"site_logo"} />
@@ -35,7 +39,7 @@ const Header = () => {
           </Box>
         </Grid>
       </Grid>
-    </Box>
+    </Container>
   );
 };
 

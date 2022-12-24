@@ -67,5 +67,8 @@ export const useStyle = makeStyles({
         },
       },
     },
+    [defaultTheme.breakpoints.down(768)]: {
+      // padding: "1rem",
+    },
   },
 });

@@ -5,7 +5,7 @@ import { useStyle } from "./Header.style";
 import logo from "../../assets/images/logo.png";
 // icon
 import { CgShoppingBag } from "react-icons/cg";
-import { HiBars3BottomRight, HiOutlineBars3BottomRight } from "react-icons/hi2";
+import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 
 const Header = () => {
   const classes = useStyle();

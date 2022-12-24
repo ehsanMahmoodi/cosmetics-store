@@ -1,5 +1,11 @@
 // component's
-import { Header, Hero, IntroduceProductSlider, Virtual } from "../components";
+import {
+  Header,
+  Hero,
+  IntroduceProductSlider,
+  Virtual,
+  Faq,
+} from "../components";
 
 const App = () => {
   return (
@@ -8,6 +14,7 @@ const App = () => {
       <Hero />
       <IntroduceProductSlider />
       <Virtual />
+      <Faq />
     </>
   );
 };

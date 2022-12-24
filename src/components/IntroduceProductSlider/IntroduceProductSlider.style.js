@@ -25,6 +25,22 @@ export const useStyle = makeStyles({
           right: "3.5%",
         },
       },
+      [defaultTheme.breakpoints.down(600)]: {
+        "& .swiper-button-prev": {
+          left: "8%",
+        },
+        "& .swiper-button-next": {
+          right: "8%",
+        },
+      },
+      [defaultTheme.breakpoints.down(350)]: {
+        "& .swiper-button-prev": {
+          left: "3%",
+        },
+        "& .swiper-button-next": {
+          right: "3%",
+        },
+      },
     },
   },
 });

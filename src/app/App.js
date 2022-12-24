@@ -1,5 +1,5 @@
 // component's
-import { Header, Hero, IntroduceProductSlider } from "../components";
+import { Header, Hero, IntroduceProductSlider, Virtual } from "../components";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Header />
       <Hero />
       <IntroduceProductSlider />
+      <Virtual />
     </>
   );
 };

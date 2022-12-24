@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper";
 // style
 import { useStyle } from "./IntroduceProductSlider.style";
 import "swiper/css";
@@ -9,7 +10,6 @@ import "swiper/css/navigation";
 import { ProductSliderCardItem } from "../../common";
 // data
 import { ProductsData } from "../../data/SliderProducts";
-import { Navigation, Pagination } from "swiper";
 
 const IntroduceProductSlider = () => {
   // get css style

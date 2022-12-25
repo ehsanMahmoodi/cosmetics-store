@@ -5,6 +5,7 @@ import {
   IntroduceProductSlider,
   Virtual,
   Faq,
+  Footer,
 } from "../components";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <IntroduceProductSlider />
       <Virtual />
       <Faq />
+      <Footer />
     </>
   );
 };

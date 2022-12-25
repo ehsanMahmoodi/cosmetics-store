@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
             <li className="list_item">
               <HiOutlinePhone />
-              <Typography>+991-899-1149</Typography>
+              <Typography>+98 991-899-1149</Typography>
             </li>
             <li className="list_item">
               <HiOutlineMail />
